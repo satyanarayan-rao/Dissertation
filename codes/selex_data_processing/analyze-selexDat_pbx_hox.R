@@ -38,8 +38,6 @@ regex = selex.seqfilter(variableRegionIncludeRegex="NNGAYNNRYNNN") # not using h
 kmax.value = selex.kmax(sample=r0, threshold=threshold) 
 
 
-#mm = selex.mm(sample=r0train, order=NA, crossValidationSample=r0test, Kmax=kmax.value, seqfilter= regex) 
-#mm = selex.mm(sample=r0train, order=5, crossValidationSample=r0test, Kmax=kmax.value)
 #mm = selex.mm(sample=r0, order=5, seqfilter=regex)
 mm = selex.mm(sample=r0, order=5, 
               mmWithLeftFlank=TRUE, 
