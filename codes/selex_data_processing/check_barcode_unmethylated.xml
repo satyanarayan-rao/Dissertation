@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SELEXSequencingConfig>
+    <SequencingRunInfo name="R1-Pbx-HoxA1">
+        <DataFile>/home/satya/workplace/Projects/Dissertation/data/selex/Pbx-HoxA1/data_at_GEO/R1_final.fastq.gz</DataFile>
+        <SequencingPlatform></SequencingPlatform>
+        <ResearcherName></ResearcherName>
+        <ResearcherEmail></ResearcherEmail>
+        <SequencingFacilityName></SequencingFacilityName>
+        <SequencingFacilityEmail></SequencingFacilityEmail>
+        <Description></Description>
+        <Notes></Notes>
+        <Sample round="1" name="Pbx-HoxA1-Round1">
+            <Protein></Protein>
+            <Concentration></Concentration>
+            <VariableRegionLength>16</VariableRegionLength>
+            <LeftFlank>TGGGCCTGG</LeftFlank>
+            <RightFlank>CCAGG</RightFlank>
+            <LeftBarcode>TGGGCCTGG</LeftBarcode>
+            <RightBarcode></RightBarcode>
+            <Round0 sampleName="Pbx-HoxA1-Round0" sequencingName="R0-Pbx-HoxA1"/>
+            <Notes>R1 Sequencing data from Judith</Notes>
+        </Sample>
+    </SequencingRunInfo>
+    <SequencingRunInfo name="R0-Pbx-HoxA1">
+        <DataFile>/home/satya/workplace/Projects/Dissertation/data/selex/Pbx-HoxA1/data_at_GEO/R0_final.fastq.gz</DataFile>
+        <SequencingPlatform></SequencingPlatform>
+        <ResearcherName></ResearcherName>
+        <ResearcherEmail></ResearcherEmail>
+        <SequencingFacilityName></SequencingFacilityName>
+        <SequencingFacilityEmail></SequencingFacilityEmail>
+        <Description></Description>
+        <Notes></Notes>
+        <Sample round="0" name="Pbx-HoxA1-Round0">
+            <Protein></Protein>
+            <Concentration></Concentration>
+            <VariableRegionLength>16</VariableRegionLength>
+            <LeftFlank>TGGGCCTGG</LeftFlank>
+            <RightFlank>CCAGG</RightFlank>
+            <LeftBarcode>TGGGCCTGG</LeftBarcode>
+            <RightBarcode></RightBarcode>
+            <Notes>R0 sequencing from Judith</Notes>
+        </Sample>
+    </SequencingRunInfo>
+
+</SELEXSequencingConfig>
