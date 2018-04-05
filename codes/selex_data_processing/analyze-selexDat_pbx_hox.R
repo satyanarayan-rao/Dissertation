@@ -34,7 +34,6 @@ r1 = selex.sample(seqName=mysamples$seqName[mysamples$round==1],
 
 ##########################################################
 ## Markov Model
-#seqFilter using PCTRL probe:
 regex = selex.seqfilter(variableRegionIncludeRegex="NNGAYNNRYNNN") # not using here
 kmax.value = selex.kmax(sample=r0, threshold=threshold) 
 
